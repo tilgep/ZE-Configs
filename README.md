@@ -27,7 +27,7 @@ If you want to add any make a pull request
 		"maxuses"			"0"		//Integer, Maximum uses for modes 3,4,5
 		"cooldown"			"0"		//Integer, Cooldown of item for modes 2,4,5
 		"buttonid"			"0"		//Integer, If an item has more than 1 button, set the hammerID of the button to be considered
-		"trigger"			"0"		//Integer, Sets a trigger that a restrict player cannot activate e.g. knife item strip trigger
+		"trigger"			"0"		//Integer, HammerID of a trigger that a restricted player cannot activate e.g. knife item strip trigger
 	}
 } 
 ```
