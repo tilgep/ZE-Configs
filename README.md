@@ -58,3 +58,34 @@ If you want to add any make a pull request
 {cyan}
 {gray}
 ```
+
+
+## BossHud Template
+
+```
+"bosses"
+{
+	"0"
+	{
+		"name"			""	// String, name that shows up on the HUD
+		"method"		""	// breakable, counter, hp, hpbar
+		"trigger"		""	// example: "trigger_boss:OnStartTouch:5"
+		"physbox"		""	// Used for boss hit rank and hitmarker, name of the thing that gets shot
+		"deathtrigger"		""	// Used for boss hit rank, same style as "trigger", the trigger that happens when boss dies
+		
+		Optional keyvalues
+		"breakable"		""	// Either breakable or counter is needed for it to work
+		"counter"		""	//
+		"showtrigger"		""
+		"iterator"		""
+		"backup"		""
+		"killtrigger"		""	// Trigger to stop showing the HUD
+		"multitrigger"		""
+		"namefixup"		""
+		"timeout"		""
+		"altHP"			""	// Instead of HP it will say this
+	}
+}
+```
+		
+		
