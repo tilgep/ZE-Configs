@@ -71,18 +71,19 @@ If you want to add any make a pull request
 		"method"		""	// breakable, counter, hp, hpbar
 		"trigger"		""	// example: "trigger_boss:OnStartTouch:5" or "#hammerid:OnStartTouch:5"
 		"hitcounter"		""	// Bool, true by default, only add if it needs to be false
-		"physbox"		""	// Name of physbox/breakable to override hit counter if hits are not counted correctly
+		
 		
 		//Optional keyvalues
+		"physbox"		""	// Name of physbox/breakable to override hit counter if hits are not counted correctly
 		"breakable"		""	// Either breakable or counter is needed for it to work
-		"counter"		""	//
-		"showtrigger"		""
+		"counter"		""	// If method is counter, name/hammerid of the hp counter
+		"showtrigger"		""	// the trigger to start showing the bhud
 		"iterator"		""
 		"backup"		""
 		"killtrigger"		""	// Trigger to stop showing the HUD
 		"multitrigger"		""
 		"namefixup"		""
-		"timeout"		""
+		"timeout"		""	// time bhud will stay visible
 		"altHP"			""	// Instead of HP it will say this
 	}
 }
