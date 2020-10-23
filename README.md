@@ -35,28 +35,17 @@ If you want to add any make a pull request
 ## Available Colors
 
 ```
-{default}
-{darkred}
-{purple}
-{green}
-{lightgreen}
-{lime}
-{red}
-{grey}
-{olive}
-{lightblue}
-{blue}
-{pink}
-{darkorange}
-{orange}
-{white}
-{yellow}
-{magenta}
-{silver}
-{bluegrey}
-{lightred}
-{cyan}
-{gray}
+{default}			{darkred}
+{purple}			{green}
+{lightgreen}			{lime}
+{red}				{grey}
+{olive}				{lightblue}
+{blue}				{pink}
+{darkorange}			{orange}
+{white}				{yellow}
+{magenta}			{silver}
+{bluegrey}			{lightred}
+{cyan}				{gray}
 ```
 
 
