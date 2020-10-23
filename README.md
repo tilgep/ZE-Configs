@@ -71,6 +71,7 @@ If you want to add any make a pull request
 		"method"		""	// breakable, counter, hp, hpbar
 		"trigger"		""	// example: "trigger_boss:OnStartTouch:5" or "#hammerid:OnStartTouch:5"
 		"hitcounter"		""	// Bool, true by default, only add if it needs to be false
+		"physbox"		""	// Name of physbox/breakable to override hit counter if hits are not counted correctly
 		
 		//Optional keyvalues
 		"breakable"		""	// Either breakable or counter is needed for it to work
