@@ -69,11 +69,10 @@ If you want to add any make a pull request
 	{
 		"name"			""	// String, name that shows up on the HUD
 		"method"		""	// breakable, counter, hp, hpbar
-		"trigger"		""	// example: "trigger_boss:OnStartTouch:5"
-		"physbox"		""	// Used for boss hit rank and hitmarker, name of the thing that gets shot
-		"deathtrigger"		""	// Used for boss hit rank, same style as "trigger", the trigger that happens when boss dies
+		"trigger"		""	// example: "trigger_boss:OnStartTouch:5" or "#hammerid:OnStartTouch:5"
+		"physbox"		""	// Needed for hitmarker and hit/damage counter. String of physbox/breakable that gets shot
 		
-		Optional keyvalues
+		//Optional keyvalues
 		"breakable"		""	// Either breakable or counter is needed for it to work
 		"counter"		""	//
 		"showtrigger"		""
