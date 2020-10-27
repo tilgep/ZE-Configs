@@ -59,11 +59,13 @@ If you want to add any make a pull request
 		"name"			""	// String, name that shows up on the HUD
 		"method"		""	// breakable, counter, hp, hpbar
 		"trigger"		""	// example: "trigger_boss:OnStartTouch:5" or "#hammerid:OnStartTouch:5"
-		"hitcounter"		""	// Bool, true by default, only add if it needs to be false
+		
 		
 		
 		//Optional keyvalues
+		"hitcounter"		""	// 1/0, true by default, only add if it needs to be false
 		"physbox"		""	// Name of physbox/breakable to override hit counter if hits are not counted correctly
+		"hidehud"		""	// 1/0, true by default, only add if the hud is not needed e.g. surf_dark_fantasy
 		"breakable"		""	// Either breakable or counter is needed for it to work
 		"counter"		""	// If method is counter, name/hammerid of the hp counter
 		"showtrigger"		""	// the trigger to start showing the bhud
