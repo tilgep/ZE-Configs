@@ -1,9 +1,6 @@
-# GUC-Configs
-
-
+# ZE Configs
 
 ## ENTWATCH TEMPLATE
-
 
 ```
 "entities"
@@ -63,7 +60,7 @@
 		
 		
 		//Optional keyvalues
-		"hitcounter"		""	// 1/0, true by default, only add if it needs to be false
+		"hitcounter"		""	// 1/0, true by default, only add if it needs to be false, should top hits be shown
 		"physbox"		""	// Name of physbox/breakable to override hit counter if hits are not counted correctly
 		"hudenabled"		""	// 1/0, true by default, only add if the hud is not needed e.g. surf_dark_fantasy
 		"breakable"		""	// Either breakable or counter is needed for it to work
